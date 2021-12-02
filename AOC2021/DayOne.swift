@@ -9,7 +9,7 @@ import Foundation
 extension AdventOfCode {
     
     public func dayOne() {
-        //replace input here
+
         let rawInput = try! String(contentsOfFile: "/Users/vincent/XCode/AOC2021/AOC2021/inputs/dayOne.txt")
             .removeEmptySpace()
             .separateByNewLine()

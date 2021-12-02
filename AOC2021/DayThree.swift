@@ -9,9 +9,13 @@ import Foundation
 extension AdventOfCode {
     
     public func dayThree() {
-        //replace input here
+        
         let rawInput = try! String(contentsOfFile: "/Users/vincent/XCode/AOC2021/AOC2021/inputs/dayThree.txt")
             .removeEmptySpace()
             .separateByNewLine()
+        
+        //partOne
+        
+        //partTwo
     }
 }

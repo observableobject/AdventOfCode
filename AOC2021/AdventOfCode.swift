@@ -22,7 +22,7 @@ public final class AdventOfCode {
         case .dayTwo:
             dayTwo()
         case .dayThree:
-            print("not yet")
+            dayThree()
         case .dayFour:
             print("not yet")
         case .dayFive:
