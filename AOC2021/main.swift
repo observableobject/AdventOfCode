@@ -5,7 +5,11 @@
 //  Created by Vincent Frascello on 12/1/21.
 //
 
-import Foundation
+let tool = AdventOfCode()
 
-print("Hello, World!")
+do {
+    tool.run(Day(rawValue: Int(CommandLine.arguments[1])! - 1)!)
+}
+
+
 
