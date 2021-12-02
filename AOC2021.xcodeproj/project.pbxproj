@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF7428D1275883B400A7E13E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428D0275883B400A7E13E /* main.swift */; };
 		BF7428D92758846F00A7E13E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = BF7428D82758846F00A7E13E /* Algorithms */; };
 		BF7428DC275929C500A7E13E /* AdventOfCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428DB275929C500A7E13E /* AdventOfCode.swift */; };
-		BF7428DE275929EC00A7E13E /* DayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428DD275929EC00A7E13E /* DayOne.swift */; };
-		BF7428E027592A3500A7E13E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428DF27592A3500A7E13E /* String.swift */; };
-		BF7428E327592BD000A7E13E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428E227592BD000A7E13E /* Day.swift */; };
 		BF7428E627592C5500A7E13E /* DayTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428E527592C5500A7E13E /* DayTwo.swift */; };
 		BF7428E82759318C00A7E13E /* DayThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428E72759318C00A7E13E /* DayThree.swift */; };
+		BF74290127593D4A00A7E13E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF74290027593D4A00A7E13E /* Day.swift */; };
+		BF74290327593D5400A7E13E /* DayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF74290227593D5400A7E13E /* DayOne.swift */; };
+		BF74290F27593D8000A7E13E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF74290927593D7700A7E13E /* String.swift */; };
+		BF74291027593D8900A7E13E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF74290A27593D7700A7E13E /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,16 +31,17 @@
 
 /* Begin PBXFileReference section */
 		BF7428CD275883B400A7E13E /* AOC2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2021; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF7428D0275883B400A7E13E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BF7428DA27588B7000A7E13E /* dayTwo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayTwo.txt; sourceTree = "<group>"; };
 		BF7428DB275929C500A7E13E /* AdventOfCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode.swift; sourceTree = "<group>"; };
-		BF7428DD275929EC00A7E13E /* DayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOne.swift; sourceTree = "<group>"; };
-		BF7428DF27592A3500A7E13E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		BF7428E127592AA000A7E13E /* dayOne.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayOne.txt; sourceTree = "<group>"; };
-		BF7428E227592BD000A7E13E /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		BF7428E527592C5500A7E13E /* DayTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwo.swift; sourceTree = "<group>"; };
 		BF7428E72759318C00A7E13E /* DayThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayThree.swift; sourceTree = "<group>"; };
-		BF7428E9275931C000A7E13E /* dayThree.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayThree.txt; sourceTree = "<group>"; };
+		BF7428FD27593CD700A7E13E /* Sources */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sources; sourceTree = SOURCE_ROOT; };
+		BF74290027593D4A00A7E13E /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		BF74290227593D5400A7E13E /* DayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOne.swift; sourceTree = "<group>"; };
+		BF74290927593D7700A7E13E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BF74290A27593D7700A7E13E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BF74290C27593D7700A7E13E /* dayThree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayThree.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +76,14 @@
 			isa = PBXGroup;
 			children = (
 				BF7428E427592C2200A7E13E /* Inputs */,
-				BF7428D0275883B400A7E13E /* main.swift */,
+				BF74290A27593D7700A7E13E /* main.swift */,
 				BF7428DB275929C500A7E13E /* AdventOfCode.swift */,
-				BF7428DD275929EC00A7E13E /* DayOne.swift */,
+				BF74290227593D5400A7E13E /* DayOne.swift */,
 				BF7428E72759318C00A7E13E /* DayThree.swift */,
 				BF7428E527592C5500A7E13E /* DayTwo.swift */,
-				BF7428DF27592A3500A7E13E /* String.swift */,
-				BF7428E227592BD000A7E13E /* Day.swift */,
+				BF74290927593D7700A7E13E /* String.swift */,
+				BF74290027593D4A00A7E13E /* Day.swift */,
+				BF7428FD27593CD700A7E13E /* Sources */,
 			);
 			path = AOC2021;
 			sourceTree = "<group>";
@@ -89,8 +91,8 @@
 		BF7428E427592C2200A7E13E /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
+				BF74290C27593D7700A7E13E /* dayThree.txt */,
 				BF7428DA27588B7000A7E13E /* dayTwo.txt */,
-				BF7428E9275931C000A7E13E /* dayThree.txt */,
 				BF7428E127592AA000A7E13E /* dayOne.txt */,
 			);
 			path = Inputs;
@@ -160,13 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7428D1275883B400A7E13E /* main.swift in Sources */,
 				BF7428E627592C5500A7E13E /* DayTwo.swift in Sources */,
+				BF74291027593D8900A7E13E /* main.swift in Sources */,
 				BF7428E82759318C00A7E13E /* DayThree.swift in Sources */,
 				BF7428DC275929C500A7E13E /* AdventOfCode.swift in Sources */,
-				BF7428E027592A3500A7E13E /* String.swift in Sources */,
-				BF7428E327592BD000A7E13E /* Day.swift in Sources */,
-				BF7428DE275929EC00A7E13E /* DayOne.swift in Sources */,
+				BF74290127593D4A00A7E13E /* Day.swift in Sources */,
+				BF74290F27593D8000A7E13E /* String.swift in Sources */,
+				BF74290327593D5400A7E13E /* DayOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
