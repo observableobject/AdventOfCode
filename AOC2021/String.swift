@@ -14,4 +14,8 @@ extension String {
     func separateByNewLine() -> [String] {
         removeEmptySpace().split(separator: "\n").map(String.init)
     }
+    
+    subscript (characterIndex: Int) -> Character {
+        return self[index(startIndex, offsetBy: characterIndex)]
+    }
 }
