@@ -33,7 +33,7 @@ class Board {
     
     func bingo() -> Bool {
         var bingo = false
-        if (checkRow() || checkDiagonal() || checkColumn()) {
+        if (checkRow() || checkColumn()) {
             bingo = true
             isInPlay = false
         }
@@ -61,15 +61,15 @@ class Board {
         }
         return column
     }
-    
-    func checkDiagonal() -> Bool {
-        var diagonal: Bool = false
-        
-        if (called[0] && called[6] && called[12] && called[18] && called[24]) || (called[4] && called[8] && called[12] && called[16] && called[20]) {
-            diagonal = true
-        }
-        return diagonal
-    }
+// Diagonals Don't Count
+//    func checkDiagonal() -> Bool {
+//        var diagonal: Bool = false
+//
+//        if (called[0] && called[6] && called[12] && called[18] && called[24]) || (called[4] && called[8] && called[12] && called[16] && called[20]) {
+//            diagonal = true
+//        }
+//        return diagonal
+//    }
     
     func display() {
         for i in 0..<5 {
