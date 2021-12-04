@@ -15,6 +15,8 @@
 		BF74290327593D5400A7E13E /* DayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF74290227593D5400A7E13E /* DayOne.swift */; };
 		BF74290F27593D8000A7E13E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF74290927593D7700A7E13E /* String.swift */; };
 		BF74291027593D8900A7E13E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF74290A27593D7700A7E13E /* main.swift */; };
+		BF93B16C275B2E87008C2052 /* DayFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16B275B2E87008C2052 /* DayFour.swift */; };
+		BF93B16E275B3306008C2052 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16D275B3306008C2052 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +44,9 @@
 		BF74290927593D7700A7E13E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		BF74290A27593D7700A7E13E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BF74290C27593D7700A7E13E /* dayThree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayThree.txt; sourceTree = "<group>"; };
+		BF93B16A275B2E77008C2052 /* dayFour.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFour.txt; sourceTree = "<group>"; };
+		BF93B16B275B2E87008C2052 /* DayFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFour.swift; sourceTree = "<group>"; };
+		BF93B16D275B3306008C2052 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,8 @@
 				BF74290227593D5400A7E13E /* DayOne.swift */,
 				BF7428E72759318C00A7E13E /* DayThree.swift */,
 				BF7428E527592C5500A7E13E /* DayTwo.swift */,
+				BF93B16B275B2E87008C2052 /* DayFour.swift */,
+				BF93B16D275B3306008C2052 /* Board.swift */,
 				BF74290927593D7700A7E13E /* String.swift */,
 				BF74290027593D4A00A7E13E /* Day.swift */,
 				BF7428FD27593CD700A7E13E /* Sources */,
@@ -93,6 +100,7 @@
 			children = (
 				BF74290C27593D7700A7E13E /* dayThree.txt */,
 				BF7428DA27588B7000A7E13E /* dayTwo.txt */,
+				BF93B16A275B2E77008C2052 /* dayFour.txt */,
 				BF7428E127592AA000A7E13E /* dayOne.txt */,
 			);
 			path = Inputs;
@@ -164,11 +172,13 @@
 			files = (
 				BF7428E627592C5500A7E13E /* DayTwo.swift in Sources */,
 				BF74291027593D8900A7E13E /* main.swift in Sources */,
+				BF93B16C275B2E87008C2052 /* DayFour.swift in Sources */,
 				BF7428E82759318C00A7E13E /* DayThree.swift in Sources */,
 				BF7428DC275929C500A7E13E /* AdventOfCode.swift in Sources */,
 				BF74290127593D4A00A7E13E /* Day.swift in Sources */,
 				BF74290F27593D8000A7E13E /* String.swift in Sources */,
 				BF74290327593D5400A7E13E /* DayOne.swift in Sources */,
+				BF93B16E275B3306008C2052 /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

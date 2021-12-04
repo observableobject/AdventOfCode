@@ -15,6 +15,14 @@ extension String {
         removeEmptySpace().split(separator: "\n").map(String.init)
     }
     
+    func separateBySpace() -> [String] {
+        removeEmptySpace().split(separator: " ").map(String.init)
+    }
+    
+    func separateByComma() -> [String] {
+        removeEmptySpace().split(separator: ",").map(String.init)
+    }
+    
     subscript (characterIndex: Int) -> Character {
         return self[index(startIndex, offsetBy: characterIndex)]
     }
