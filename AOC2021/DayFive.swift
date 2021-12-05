@@ -11,23 +11,17 @@ extension AdventOfCode {
     
     public func dayFive() {
         let rawInput = try! String(contentsOfFile: "/Users/vincent/XCode/AOC2021/AOC2021/inputs/dayFive.txt")
-        
         //partOne
         let lineInput = rawInput
             .replacingOccurrences(of: "->", with: "")
             .replacingOccurrences(of: ",", with: " ")
             .separateByNewLine()
         
-        var ventMap: [[Int]] = []
-        
-        //initialize matrix. Must find better way to do this.
-        for _ in 0..<1000 {
-            ventMap.append([Int](repeating: 0, count: 1000))
-        }
+        var ventMap = Array(repeating: Array(repeating: 0, count: 1000), count: 1000)
         
         for line in lineInput {
             var vent = line.separateBySpace().map({ Int($0)! })
-            //comment out 31-58 for part one
+            //26-53 part two only
             if vent[2]-vent[0] > 0 && vent[3] - vent[1] > 0 {
                 //positive slope in increasing order
                 for i in vent[0]...vent[2] {
