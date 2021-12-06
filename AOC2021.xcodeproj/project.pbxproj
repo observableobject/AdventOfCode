@@ -18,6 +18,7 @@
 		BF93B16C275B2E87008C2052 /* DayFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16B275B2E87008C2052 /* DayFour.swift */; };
 		BF93B16E275B3306008C2052 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16D275B3306008C2052 /* Board.swift */; };
 		BF93B170275C7E2D008C2052 /* DayFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16F275C7E2D008C2052 /* DayFive.swift */; };
+		BF93B173275DD009008C2052 /* DaySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B172275DD009008C2052 /* DaySix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		BF93B16D275B3306008C2052 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		BF93B16F275C7E2D008C2052 /* DayFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFive.swift; sourceTree = "<group>"; };
 		BF93B171275C7EC6008C2052 /* dayFive.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFive.txt; sourceTree = "<group>"; };
+		BF93B172275DD009008C2052 /* DaySix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySix.swift; sourceTree = "<group>"; };
+		BF93B174275DD038008C2052 /* daySix.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = daySix.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,7 @@
 				BF7428E527592C5500A7E13E /* DayTwo.swift */,
 				BF93B16B275B2E87008C2052 /* DayFour.swift */,
 				BF93B16F275C7E2D008C2052 /* DayFive.swift */,
+				BF93B172275DD009008C2052 /* DaySix.swift */,
 				BF93B16D275B3306008C2052 /* Board.swift */,
 				BF74290927593D7700A7E13E /* String.swift */,
 				BF74290027593D4A00A7E13E /* Day.swift */,
@@ -107,6 +111,7 @@
 				BF93B16A275B2E77008C2052 /* dayFour.txt */,
 				BF7428E127592AA000A7E13E /* dayOne.txt */,
 				BF93B171275C7EC6008C2052 /* dayFive.txt */,
+				BF93B174275DD038008C2052 /* daySix.txt */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				BF93B170275C7E2D008C2052 /* DayFive.swift in Sources */,
 				BF7428E627592C5500A7E13E /* DayTwo.swift in Sources */,
 				BF74291027593D8900A7E13E /* main.swift in Sources */,
+				BF93B173275DD009008C2052 /* DaySix.swift in Sources */,
 				BF93B16C275B2E87008C2052 /* DayFour.swift in Sources */,
 				BF7428E82759318C00A7E13E /* DayThree.swift in Sources */,
 				BF7428DC275929C500A7E13E /* AdventOfCode.swift in Sources */,

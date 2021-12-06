@@ -72,7 +72,6 @@ extension AdventOfCode {
                 continue
             }
         }
-        
         var totalCount = 0
         for vent in ventMap {
             for i in vent {
