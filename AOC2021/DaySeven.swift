@@ -13,28 +13,22 @@ extension AdventOfCode {
         let rawInput = try! String(contentsOfFile: "/Users/vincent/XCode/AOC2021/AOC2021/inputs/daySeven.txt")
         
         let crabList = rawInput.separateByComma().map( { Int($0)! })
-        //let crabList = [16,1,2,0,4,2,7,1,2,14]
         
         var fuelNeeded: [Int] = Array(repeating: 0, count: crabList.max()!)
-
+        //lazy O(n^2) solution.
         for position in 0..<crabList.max()! { // iterate over the final position.
-            var spaces = 0
+
             for crab in 0..<crabList.count { // iterate over each crab.
-                spaces = abs(crabList[crab]-position)
+                let spaces = abs(crabList[crab]-position)
                 
-                fuelNeeded[position]+=fuel(spaces)
+                fuelNeeded[position]+=spaces
             }
-            
-            //print(fuelNeeded)
        }
-        print(fuelNeeded.reduce(Int.max, { min($0, $1) }))
-        print(fuelNeeded)
+        print(fuelNeeded.reduce(Int.max, min))
     }
-    
-   
 }
 
-public func fuel(_ spaces: Int) -> Int { //10
+func fuel(_ spaces: Int) -> Int {
     return spaces + ((spaces == 0) ? 0 : fuel(spaces-1))
     
 }
