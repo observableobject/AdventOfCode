@@ -21,7 +21,8 @@ extension AdventOfCode {
             for crab in 0..<crabList.count { // iterate over each crab.
                 let spaces = abs(crabList[crab]-position)
                 
-                fuelNeeded[position]+=spaces
+                // fuelNeeded[position]+=spaces //partOne
+                fuelNeeded[position]+=fuel(spaces) //partTwo
             }
        }
         print(fuelNeeded.reduce(Int.max, min))
