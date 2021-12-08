@@ -19,6 +19,7 @@
 		BF93B16E275B3306008C2052 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16D275B3306008C2052 /* Board.swift */; };
 		BF93B170275C7E2D008C2052 /* DayFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16F275C7E2D008C2052 /* DayFive.swift */; };
 		BF93B173275DD009008C2052 /* DaySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B172275DD009008C2052 /* DaySix.swift */; };
+		BFB402DB2760762200B64DAF /* DayEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB402DA2760762200B64DAF /* DayEight.swift */; };
 		BFCF4A7B275EFB5D002323AE /* DaySeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF4A7A275EFB5D002323AE /* DaySeven.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		BF93B171275C7EC6008C2052 /* dayFive.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFive.txt; sourceTree = "<group>"; };
 		BF93B172275DD009008C2052 /* DaySix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySix.swift; sourceTree = "<group>"; };
 		BF93B174275DD038008C2052 /* daySix.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = daySix.txt; sourceTree = "<group>"; };
+		BFB402DA2760762200B64DAF /* DayEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEight.swift; sourceTree = "<group>"; };
+		BFB402DC2760777800B64DAF /* dayEight.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayEight.txt; sourceTree = "<group>"; };
 		BFCF4A7A275EFB5D002323AE /* DaySeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySeven.swift; sourceTree = "<group>"; };
 		BFCF4A7C275EFBB7002323AE /* daySeven.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = daySeven.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +102,7 @@
 				BF93B16F275C7E2D008C2052 /* DayFive.swift */,
 				BF93B172275DD009008C2052 /* DaySix.swift */,
 				BFCF4A7A275EFB5D002323AE /* DaySeven.swift */,
+				BFB402DA2760762200B64DAF /* DayEight.swift */,
 				BF93B16D275B3306008C2052 /* Board.swift */,
 				BF74290927593D7700A7E13E /* String.swift */,
 				BF74290027593D4A00A7E13E /* Day.swift */,
@@ -117,6 +121,7 @@
 				BFCF4A7C275EFBB7002323AE /* daySeven.txt */,
 				BF93B171275C7EC6008C2052 /* dayFive.txt */,
 				BF93B174275DD038008C2052 /* daySix.txt */,
+				BFB402DC2760777800B64DAF /* dayEight.txt */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCF4A7B275EFB5D002323AE /* DaySeven.swift in Sources */,
+				BFB402DB2760762200B64DAF /* DayEight.swift in Sources */,
 				BF93B170275C7E2D008C2052 /* DayFive.swift in Sources */,
 				BF7428E627592C5500A7E13E /* DayTwo.swift in Sources */,
 				BF74291027593D8900A7E13E /* main.swift in Sources */,

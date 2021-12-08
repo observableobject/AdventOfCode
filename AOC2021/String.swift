@@ -23,6 +23,14 @@ extension String {
         removeEmptySpace().split(separator: ",").map(String.init)
     }
     
+    func subtract(_ second: String ) -> String {
+        var temp = self
+        for wire in second {
+            temp = temp.replacingOccurrences(of: String(wire), with: "")
+        }
+        return temp
+    }
+    
     subscript (characterIndex: Int) -> Character {
         return self[index(startIndex, offsetBy: characterIndex)]
     }
