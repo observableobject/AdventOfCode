@@ -34,7 +34,7 @@ public final class AdventOfCode {
         case .dayEight:
             dayEight()
         case .dayNine:
-            print("not yet")
+            dayNine()
         case .dayTen:
             print("not yet")
         }

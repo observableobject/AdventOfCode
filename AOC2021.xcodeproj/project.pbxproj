@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6AE9312761CB2E00DB7933 /* DayNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AE9302761CB2E00DB7933 /* DayNine.swift */; };
 		BF7428D92758846F00A7E13E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = BF7428D82758846F00A7E13E /* Algorithms */; };
 		BF7428DC275929C500A7E13E /* AdventOfCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428DB275929C500A7E13E /* AdventOfCode.swift */; };
 		BF7428E627592C5500A7E13E /* DayTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7428E527592C5500A7E13E /* DayTwo.swift */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF6AE92F2761CB1500DB7933 /* dayNine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayNine.txt; sourceTree = "<group>"; };
+		BF6AE9302761CB2E00DB7933 /* DayNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNine.swift; sourceTree = "<group>"; };
 		BF7428CD275883B400A7E13E /* AOC2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2021; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7428DA27588B7000A7E13E /* dayTwo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayTwo.txt; sourceTree = "<group>"; };
 		BF7428DB275929C500A7E13E /* AdventOfCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode.swift; sourceTree = "<group>"; };
@@ -103,6 +106,7 @@
 				BF93B172275DD009008C2052 /* DaySix.swift */,
 				BFCF4A7A275EFB5D002323AE /* DaySeven.swift */,
 				BFB402DA2760762200B64DAF /* DayEight.swift */,
+				BF6AE9302761CB2E00DB7933 /* DayNine.swift */,
 				BF93B16D275B3306008C2052 /* Board.swift */,
 				BF74290927593D7700A7E13E /* String.swift */,
 				BF74290027593D4A00A7E13E /* Day.swift */,
@@ -122,6 +126,7 @@
 				BF93B171275C7EC6008C2052 /* dayFive.txt */,
 				BF93B174275DD038008C2052 /* daySix.txt */,
 				BFB402DC2760777800B64DAF /* dayEight.txt */,
+				BF6AE92F2761CB1500DB7933 /* dayNine.txt */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			files = (
 				BFCF4A7B275EFB5D002323AE /* DaySeven.swift in Sources */,
 				BFB402DB2760762200B64DAF /* DayEight.swift in Sources */,
+				BF6AE9312761CB2E00DB7933 /* DayNine.swift in Sources */,
 				BF93B170275C7E2D008C2052 /* DayFive.swift in Sources */,
 				BF7428E627592C5500A7E13E /* DayTwo.swift in Sources */,
 				BF74291027593D8900A7E13E /* main.swift in Sources */,
